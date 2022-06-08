@@ -1,6 +1,8 @@
 # python_trading_bot
 Python program to automise online trading.
 
+
+# PROJECT DIARY
 This porgram was developed in Python using QuantConnect. The aim is to create a fully independent bot that learns patterns from Stock Market charts and autonomously finds the best time to buy and sell on a daily basis.
 
 
