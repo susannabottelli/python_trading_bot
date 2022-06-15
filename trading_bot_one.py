@@ -10,7 +10,7 @@ class TradingBotOne(QCAlgorithm):
         self.SetStartDate(2019,4,1)
         self.SetEndDate(2022,4,1)
         
-        #security used for trading (resolution can also be hourly on minutely)
+        #security used for trading (resolution can also be hourly or minutely)
         self.symbol = self.AddEquity("Spy", Resolution.Daily).Symbol
         
         #initialise number of days to look back at break out point
